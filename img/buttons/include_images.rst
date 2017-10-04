@@ -9,13 +9,29 @@ Images
 
    <i class="fa fa-close fa-lg" aria-hidden="true"></i>
 
+.. |IcMarkProcessed| raw:: html
+
+   <i class="fa fa-archive fa-lg" aria-hidden="true"></i>
+
+.. |IcSend| raw:: html
+
+   <i class="fa fa-envelope fa-lg" aria-hidden="true"></i>
+
+.. |IcDecline| raw:: html
+
+   <i class="fa fa-minus-square fa-lg" aria-hidden="true"></i>
+
+.. |IcRequestMoreInfo| raw:: html
+
+   <i class="fa fa-question fa-lg" aria-hidden="true"></i>
+
 .. |IcActivate| raw:: html
 
    <i class="fa fa-check fa-lg" aria-hidden="true"></i>
 
 .. |IcExpireQuote| raw:: html
 
-   <i class="fa fa-clock fa-lg" aria-hidden="true"></i>
+   <i class="fa fa-clock-o fa-lg" aria-hidden="true"></i>
 
 .. |IcUndo| raw:: html
 
@@ -128,6 +144,10 @@ Images
    <i class="fa fa-ellipsis-h fa-lg" aria-hidden="true"></i>
 
 .. |IcMerge| raw:: html
+
+   <i class="fa fa-random fa-lg" aria-hidden="true"></i>
+
+.. |IcMergeAccounts| raw:: html
 
    <i class="fa fa-random fa-lg" aria-hidden="true"></i>
 
@@ -258,12 +278,30 @@ Images
 .. |Bdropdown| raw:: html
 
    <i class="fa fa-caret-down fa-lg" aria-hidden="true"></i>
+
+.. |IcListAlt| raw:: html
+
+   <i class="fa fa-list-alt fa-lg" aria-hidden="true"></i>
+
+.. |IcAddNote| raw:: html
+
+   <i class="fa fa-comment-o fa-lg" aria-hidden="true"></i>
+
+.. |IcCloudDownload| raw:: html
+
+   <i class="fa fa-cloud-download fa-lg" aria-hidden="true"></i>
    
 .. Check mark in the square.
 
 .. |IcCheckSquareO| raw:: html
 
    <i class="fa fa-check-square-o fa-lg" aria-hidden="true"></i>
+
+.. SortDesc is also used as drop-down arrow
+
+.. |IcSortDesc| raw:: html
+
+   <i class="fa fa-sort-desc fa-lg" aria-hidden="true"></i>
 
 .. |IcMinus| raw:: html
 
