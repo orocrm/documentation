@@ -11,6 +11,8 @@ To prepare for installation:
 
 1. Download the latest version of the application from the `download section`_ on |the_site|. Click the **zip**, **tar.gz**, or **tar.bz2** link to download the archive.
 
+   .. warning:: Download archives of the Enterprise Edition of the application from the release section in the OroCRM github repository. You need a valid Oro license to access the repository. Please contact Oro sales or support to purchase the license and get the repository location.
+
    .. note:: Download the **virtual machine** to quickly :ref:`deploy the application in the virtual sandbox environment <virtual_machine_deployment>`.
 
    .. image:: /install_upgrade/img/installation/download_orocrm.png

@@ -35,20 +35,22 @@ To prepare for installation:
 
          Adjust the sample commands below to your environment and installation plan:
 
-         **OroCRM**:
+         **OroCRM Community Edition**:
 
          .. code-block:: bash
 
             $ git clone -b 2.3 https://github.com/oroinc/crm-application.git orocrm
 
-         **OroCommerce** (with OroCRM):
+         **OroCommerce Community Edition** (with OroCRM):
 
          .. code-block:: bash
 
             $ git clone --recursive -b 1.3.0 https://github.com/orocommerce/orocommerce-application.git orocommerce
 
-         **OroPlatform**:
+         **OroPlatform Community Edition**:
 
          .. code-block:: bash
 
             $ git clone -b 2.3 https://github.com/oroinc/platform-application.git oroplatform
+
+         .. warning:: You need a valid Oro license to access the *OroCRM Enterprise Edition* github repository.  Please contact Oro sales to purchase the license and get the repository location. 
