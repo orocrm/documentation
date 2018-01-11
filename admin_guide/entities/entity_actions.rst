@@ -63,7 +63,7 @@ Create an Entity
             
       - **Organization**—Select this check box if the entity records can be shared with the whole organization.     
    
-   - **Activities**—Defines which activities users can add from the entity record view page. When you add an activity from the entity record page, the entity record appears as a context for this activity. For more information about the activities, see the `Activities <../../user-guide/activities/activities-overview>`__ guide.
+   - **Activities**—Defines which activities users can add from the entity record view page. When you add an activity from the entity record page, the entity record appears as a context for this activity. For more information about the activities, see the :ref:`Activities <user-guide-activities>` guide.
    
       - **Emails**—Select this check box to enable sending emails from the entity record view page. 
       
@@ -181,7 +181,7 @@ Create an Entity
      Mandatory. 
      Default value is **None**. 
    
-   - **Auditable**—This subsection defines whether system will log what actions are performed with the entity records and who performed them, and users with the corresponding permissions will be able to check it in the **Change History** and **Data Audit** sections of the system. For more information about the data audit, see the `Data Audit <../security/security_data_audit>`__ guide.
+   - **Auditable**—This subsection defines whether system will log what actions are performed with the entity records and who performed them, and users with the corresponding permissions will be able to check it in the **Change History** and **Data Audit** sections of the system. For more information about the data audit, see the :ref:`Data Audit <user-guide-data-audit>` guide.
    
      |
 

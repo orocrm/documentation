@@ -16,7 +16,7 @@ View Credit Memos
 
 In your Oro application, Magento credit memos can be viewed on the view pages of selected:
 
-- :ref:`Credit memos <user-guide--sales--magento-credit-memos-view>` under **Sales > Magento Credit Memos**
+- :ref:`Credit memos <user-guide-magento-credit-memos>` under **Sales > Magento Credit Memos**
 
 .. image:: /img/magento_entities/MagentoCreditMemoPage.png
 
@@ -33,6 +33,11 @@ In your Oro application, Magento credit memos can be viewed on the view pages of
 .. image:: /img/magento_entities/MagentoCreditMemoOrder.png
 
 .. note:: Please note that credit memos are generated on the Magento side and cannot be edited in your Oro application in any way.
+
+.. toctree::
+   :hidden:
+
+   view_magento_credit_memos
 
 
 

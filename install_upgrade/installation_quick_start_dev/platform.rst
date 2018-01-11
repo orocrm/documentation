@@ -25,6 +25,10 @@ Quick Start Installation: OroPlatform
    :start-after: begin_body
    :end-before: finish_body
 
+.. |LICENSE| replace:: `MIT`_
+
+.. _MIT: https://github.com/oroinc/platform-application/blob/master/LICENSE
+
 .. |db_name| replace:: *bap_standard*
 
 .. |main_app| replace:: OroPlatform

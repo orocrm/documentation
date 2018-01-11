@@ -91,8 +91,12 @@ To use Redis for application caching, follow the corresponding
 License
 ~~~~~~~
 
-`OSL-3.0 <LICENSE>`__ Copyright (c) 2013 - 2017, Oro, Inc.
+|LICENSE| Copyright (c) 2013 - 2017, Oro, Inc.
 
 .. finish_body
+
+.. |LICENSE| replace:: `OSL-3.0`_
+
+.. _OSL-3.0: http://opensource.org/licenses/OSL-3.0
 
 .. |main_app| replace:: OroCommerce and OroCRM Community Edition

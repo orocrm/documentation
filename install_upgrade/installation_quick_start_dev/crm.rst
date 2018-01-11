@@ -19,6 +19,10 @@ Quick Start Installation: OroCRM Community Edition
    :start-after: begin_body
    :end-before: finish_body
 
+.. |LICENSE| replace:: `OSL-3.0`_
+
+.. _OSL-3.0: http://opensource.org/licenses/OSL-3.0
+
 .. |db_name| replace:: *oro_crm*
 
 .. |main_app| replace:: OroCRM Community Edition

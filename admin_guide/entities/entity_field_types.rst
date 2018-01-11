@@ -1,6 +1,7 @@
+.. _entity-field-types:
 
 Field Types
-============
+===========
 
 .. contents:: :local:
     :depth: 3

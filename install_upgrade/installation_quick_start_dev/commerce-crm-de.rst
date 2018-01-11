@@ -13,6 +13,11 @@ Quick Start Installation: OroCommerce and OroCRM Community Edition for Germany
    :start-after: begin_general_commerce_body
    :end-before: finish_general_commerce_body
 
+
+.. |LICENSE| replace:: `OSL-3.0`_
+
+.. _OSL-3.0: http://opensource.org/licenses/OSL-3.0
+
 .. |db_name| replace:: *b2b_crm_dev*
 
 .. |main_app| replace:: OroCommerce and OroCRM Community Edition for Germany

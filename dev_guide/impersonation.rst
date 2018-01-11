@@ -6,7 +6,7 @@ User Impersonation
 
 
 Overview
-----------
+--------
 
 There are situations when a developer needs to log in into the system on behalf of a user. For example, the developer may want to check whether a customized feature works as intended. Such need mostly arises when a user reports a bug and the developers need to ensure firsthand that the reported issue really exists and that everything works smoothly when they have fixed it.
 
@@ -44,11 +44,7 @@ Use this link to log into the system. You can also share this token with another
 The link consists of the application URL specified in the **Application Settings** and a query string that specifies an acces token.
 
 
-|
-
-.. image:: ./img/user_impersonation/impersonate_url.png 
-
-|
+.. image:: ./img/user_impersonation/impersonate_url.png
 
 There is no possibility to generate a token from any external sources, only the php command line must be used. 
 
@@ -58,11 +54,11 @@ There is no possibility to generate a token from any external sources, only the 
   When the token expires, you will see the **Login** page with the 'Impersonation token has expired' message on it.
 
 .. note::      	
-  By default, each impersonation link is valid for one day. You can generate links that will be valid for longer or shorter periods as well as change other link parameters. For how to do this, see the `Impersonation Link Options <./user-impersonation#impersonation-link-options>`__ section.
+  By default, each impersonation link is valid for one day. You can generate links that will be valid for longer or shorter periods as well as change other link parameters. For how to do this, see the following section.
 
 
 Impersonation Command Options
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This section describes the most popular options.  
 To check all possible options, execute the ``oro:user:impersonate -h`` command in the php console.
@@ -114,7 +110,7 @@ Find a Required User
 --------------------
 
 List Enabled Users
-^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^
 
 If you want to impersonate a user but you do not have a username (for example, you have a username of the user that you are troubleshooting, but you also want to check whether everything works OK for other users of the same business unit), you can check what users exist in the system via the console.  
 
@@ -167,7 +163,7 @@ To check all possible options, execute the ``oro:user:list -h`` command in the p
     	$ php app/console oro:user:list -h
 
 List All Users
-^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^
 
 By default, the ``oro:user:list`` command shows only users with the **Enabled** status.  
 To include users with the **Disabled** status as well, use the ``-a`` parameter:
@@ -180,7 +176,7 @@ To include users with the **Disabled** status as well, use the ``-a`` parameter:
 You will see all users that exist in the system.       
 
 Find Users with a Specific Role
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To see only the users with a specific role, use the ``-r"<role_name>"`` parameter. For example, to see users with the **Marketing Manager** role, execute:
 
@@ -197,7 +193,7 @@ You can specify multiple roles:
 
 
 Other Listing Command Options
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To check all possible options, execute the ``oro:user:list -h`` command in the php console.
 
@@ -215,11 +211,7 @@ Notification Email
 
 When someone uses the impersonation link, a user receives a notification email:
 
-|
-
-.. image:: ./img/user_impersonation/impersonate_notification_email.png 
-
-|
+.. image:: ./img/user_impersonation/impersonate_notification_email.png
 
 This helps avoid surprises when the user notices that something has changed in the system but cannot figure out why this has happened. Additionally, such email can instruct the user to contact the system administrator if they noticed suspicious activity, thus preventing possible fraud.
 
@@ -234,14 +226,7 @@ Data Audit
 
 If a developer who impersonates a user makes changes in OroCRM on behalf of the user, these changes are marked accordingly in the **Data Audit** section of the system and in the change history of the corresponding entity record:
 
-
-|
-
-.. image:: ./img/user_impersonation/impersonate_dataaudit.png 
-
-|
-
+.. image:: ./img/user_impersonation/impersonate_dataaudit.png
 
 .. image:: ./img/user_impersonation/impersonate_changehistory.png 
 
-|
