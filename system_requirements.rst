@@ -47,8 +47,8 @@ Oro applications are compatible with most web servers with PHP support, but we r
 |                   | * detect_unicode must be disabled                 |
 |                   | * memory_limit should be 512M or above            |
 |                   |                                                   |
-|                   | If you have xdebug installed (not recommended in  |
-|                   | the production setup):                            |
+|                   | If the xdebug is installed (which is not          |
+|                   | recommended in the production setup):             |
 |                   |                                                   |
 |                   | * xdebug.scream must be disabled                  |
 |                   | * xdebug.show_exception_trace must be disabled    |
@@ -93,7 +93,7 @@ Enterprise edition is built to support better scale and performance. It is compa
 
 **PostgreSQL Configuration**
 
-PostgreSQL `uuid-ossp` extension should be loaded for proper doctrine's `guid` type handling. In order to enable it, connect to the database server and run sql query:
+PostgreSQL `uuid-ossp` extension should be loaded for proper doctrine's `guid` type handling. In order to enable it, one can connect to the database server and run the following sql query:
 
 .. code-block:: sql
 
@@ -122,7 +122,7 @@ Recommended and supported browsers are:
 
 .. note::
 
-    Any browser you use needs to have cookies and JavaScript turned on.
+    Any browser needs to have cookies and JavaScript turned on.
 
 .. _`Apache`: https://httpd.apache.org/
 .. _`Elasticsearch`: https://www.elastic.co/products/elasticsearch
